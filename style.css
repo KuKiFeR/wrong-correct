@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding:5px 10px;
+    border-radius: 10px;
+    transition: 300ms;
+    &:hover{
+        padding:10px
+    }
+}
+.wrong{
+    background-color: red;
+}
+.correct{
+    background-color: green;
+}
